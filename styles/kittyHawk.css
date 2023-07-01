@@ -25,64 +25,6 @@ a {
   color: black;
 }
 
-/*main style*/
-header {
-  margin: 50px;
-  font-size: 32px;
-}
-
-p {
-  max-width: 70%;
-  font-size: 25px;
-}
-
-aside {
-  width: 25%;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
-  float: right;
-}
-
-.funFact {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.picture img {
-  height: auto;
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-}
-
-.mountainSource {
-  color: blue;
-  text-decoration: underline;
-  margin-left: 32%;
-  font-style: italic;
-}
-
-/*section styling*/
-section {
-  margin: 50px;
-  margin-bottom: 80px;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-table {
-  margin: 0 auto;
-  font-size: 30px;
-}
-
-td,
-th {
-  border: 1px solid black;
-  padding: 10px;
-}
-
 /*footer*/
 footer {
   border-top: 1px solid black;
@@ -116,5 +58,4 @@ footer ul {
 .source {
   color: blue;
   text-decoration: underline;
-  font-style: italic;
 }
