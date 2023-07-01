@@ -1,0 +1,67 @@
+/*navigation style*/
+nav {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  width: 5%;
+}
+
+.title {
+  margin-right: 45%;
+  margin-left: 20px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+nav li {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*footer*/
+footer {
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer .footerTitle {
+  margin-right: 65%;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+footer ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+footer li {
+  margin-left: 100px;
+}
+
+.contactUs {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contactUs:hover {
+  background-color: lightgray;
+}
