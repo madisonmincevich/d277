@@ -84,16 +84,17 @@
     </footer>
   </body>
   <script>
-    function contactUs() {
+    function contactUs(event) {
       if (document.getElementById("input").value === "") {
-        alert("no entry");
+        event.preventDefault();
+        alert("Inputs cannot be left blank. Please enter your information.");
       } else if (
         document.getElementById("email1").value ==
         document.getElementById("email2").value
       ) {
-        alert("matches");
+        alert("Thank you for your inquiry! We will contact you soon!");
       } else {
-        alert("invalid");
+        alert("Your emails do not match. Please re-enter.");
       }
 
       let contactButton = document.querySelector("submit");
