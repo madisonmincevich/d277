@@ -43,16 +43,27 @@
     </header>
     <section>
       <form>
-        <input type="text" placeholder="First Name" />
-        <input type="text" placeholder="Last Name" />
-        <input type="email" placeholder="Email Address" />
-        <input type="email" placeholder="Verify Your Email Address" />
+        <input type="text" placeholder="First Name" id="input" required />
+        <input type="text" placeholder="Last Name" id="input" required />
+        <input type="email" placeholder="Email Address" id="email1" required />
+        <input
+          type="email"
+          placeholder="Verify Your Email Address"
+          id="email2"
+          required
+        />
         <input
           type="text"
           placeholder="What can we help you with?"
           class="description"
+          required
         />
-        <input type="submit" placeholder="Submit" id="submit" />
+        <input
+          type="submit"
+          placeholder="Submit"
+          id="submit"
+          onClick="contactUs()"
+        />
       </form>
     </section>
     <footer>
@@ -72,4 +83,21 @@
       <div>This page was coded by Maddie Mincevich</div>
     </footer>
   </body>
+  <script>
+    function contactUs() {
+      if (document.getElementById("input").value === "") {
+        alert("no entry");
+      } else if (
+        document.getElementById("email1").value ==
+        document.getElementById("email2").value
+      ) {
+        alert("matches");
+      } else {
+        alert("invalid");
+      }
+
+      let contactButton = document.querySelector("submit");
+      contactButton.addEventListener("click", contactUs);
+    }
+  </script>
 </html>
