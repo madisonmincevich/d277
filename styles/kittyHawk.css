@@ -106,8 +106,14 @@ footer ul {
   background-color: lightgray;
 }
 
-.source,
 .aeroplaneSource {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+}
+
+.source {
   color: blue;
   text-decoration: underline;
   font-style: italic;
