@@ -1,3 +1,7 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /*navigation style*/
 nav {
   font-size: 20px;
@@ -23,6 +27,53 @@ nav {
 a {
   text-decoration: none;
   color: black;
+}
+
+/*header styling*/
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.aeroplane img {
+  width: 100%;
+  height: auto;
+}
+
+/*section styling*/
+section {
+  font-size: 25px;
+
+  margin: 40px;
+}
+
+.row {
+  display: flex;
+  margin: 50px;
+}
+.column {
+  width: 50%;
+}
+
+p {
+  max-width: 100%;
+}
+
+aside {
+  width: 50%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  border: solid 1px black;
+  border-radius: 5px;
 }
 
 /*footer*/
@@ -55,7 +106,9 @@ footer ul {
   background-color: lightgray;
 }
 
-.source {
+.source,
+.aeroplaneSource {
   color: blue;
   text-decoration: underline;
+  font-style: italic;
 }

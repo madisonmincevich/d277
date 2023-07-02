@@ -1,3 +1,7 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /*navigation style*/
 nav {
   font-size: 20px;
@@ -23,6 +27,38 @@ nav {
 a {
   text-decoration: none;
   color: black;
+}
+
+/*header styling*/
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.flag img {
+  width: 30%;
+  height: auto;
+}
+
+/*form*/
+section {
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.description {
+  padding-bottom: 60px;
 }
 
 /*footer*/

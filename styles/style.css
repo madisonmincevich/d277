@@ -1,3 +1,7 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /*navigation style*/
 nav {
   font-size: 20px;
@@ -53,6 +57,7 @@ aside {
   width: 60%;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .mountainSource {
@@ -60,6 +65,10 @@ aside {
   text-decoration: underline;
   margin-left: 32%;
   font-style: italic;
+}
+
+.visitSource {
+  color: blue;
 }
 
 /*section styling*/

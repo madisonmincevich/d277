@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/contact.css" />
 
     <title>Contact Us</title>
@@ -18,11 +24,42 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <header>
+      <div class="flag">
+        <img src="/images/flag.webp" />
+      </div>
+      <div>
+        <a
+          href="https://www.britannica.com/topic/flag-of-North-Carolina"
+          target="_blank"
+          class="flagSource"
+          >Flag Image Source</a
+        >
+      </div>
+      <h1>Contact Us</h1>
+      <h2>
+        Have a question? Submit your questions and inquiries to the form below!
+      </h2>
+    </header>
+    <section>
+      <form>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <input type="email" placeholder="Email Address" />
+        <input type="email" placeholder="Verify Your Email Address" />
+        <input
+          type="text"
+          placeholder="What can we help you with?"
+          class="description"
+        />
+        <input type="submit" placeholder="Submit" id="submit" />
+      </form>
+    </section>
     <footer>
       <ul>
         <img src="/images/logo.png" class="logo" />
         <li class="footerTitle">North Carolina State Page</li>
-        <li class="contactUs"><a href="#">Contact Us</a></li>
+        <li class="contactUs"><a href="contact.html">Contact Us</a></li>
       </ul>
       <div>
         <a

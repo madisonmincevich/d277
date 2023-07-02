@@ -1,3 +1,7 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 /*navigation style*/
 nav {
   font-size: 20px;
@@ -23,6 +27,72 @@ nav {
 a {
   text-decoration: none;
   color: black;
+}
+
+/*header styling*/
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.capitolSource,
+.source {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.capitol img {
+  height: auto;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/*section styling*/
+section {
+  margin-bottom: 40px;
+}
+
+.overview {
+  margin: 70px;
+}
+
+p {
+  font-size: 20px;
+}
+
+aside {
+  width: 30%;
+  margin-left: 70px;
+  float: left;
+}
+
+.cityLife {
+  font-size: 40px;
+}
+
+.city img {
+  height: auto;
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.citySource {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+  margin-left: 65%;
 }
 
 /*footer*/
@@ -53,9 +123,4 @@ footer ul {
 
 .contactUs:hover {
   background-color: lightgray;
-}
-
-.source {
-  color: blue;
-  text-decoration: underline;
 }
